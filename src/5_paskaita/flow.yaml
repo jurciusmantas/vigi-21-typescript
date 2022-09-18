@@ -1,0 +1,41 @@
+1. Prisimename, ka mokemes praeita paskaita:
+  - Union operatorius
+    Su paprastais tipais
+    Nullable tipai
+    Objektu union'ai
+  - Tuples
+    Nustatyto dydžio masyvas
+    Dažniausiai naudojamas, kai norime grąžinti kelis rezultatus
+  - Tipų prieplaidos
+    Reikia vengti, bet kartais neįmanoma
+  - Literal types
+  - Enums
+
+2. Paklausti apie git'a:
+  - Betkokiu atveju, inicijuoti nauja repo
+  - parodyt, kaip pakurt nauja brancha
+
+3. Index'ai ir keyof:
+  - Index'as - kaip pasiekti objekto propercio tipa
+    Svarbu paminet, kad tai nera kintamasis - return type irgi tipas!
+  - keyof 
+    Grazina tipo properciu pavadinimus
+    Naudojamas daznai mapped types (kai kuriam nauja tipa, mappinant per target tipo propercius)
+
+4. & operatorius:
+  - Skirtas prapelsti tipa nedubliuojant kodo
+
+5. Type mapping:
+  - Skirtas gauti naujus tipus, keiciant pleciama tipa
+  - Pavyzdziai skaidrese - perdaug sudetingi, parodyti siuos pavyzdzius
+    Optional (partial) permappint
+    Required permappint
+    Omit permappint
+
+6. Pagalbiniai tipai:
+  - Partial
+  - Required
+  - Record
+  - Pick
+  - Omit
+  - ReturnType

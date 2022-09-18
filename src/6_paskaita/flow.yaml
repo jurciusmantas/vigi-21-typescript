@@ -1,0 +1,38 @@
+1. Prisimename, ka mokemes praeita paskaita:
+  - Index'ai ir keyof:
+    - Index'as - kaip pasiekti objekto propercio tipa
+      Svarbu paminet, kad tai nera kintamasis - return type irgi tipas!
+    - keyof 
+      Grazina tipo properciu pavadinimus
+      Naudojamas daznai mapped types (kai kuriam nauja tipa, mappinant per target tipo propercius)
+  - '&' operatorius:
+    - Skirtas prapelsti tipa nedubliuojant kodo
+  - Type mapping:
+    - Skirtas gauti naujus tipus, keiciant pleciama tipa
+    - Pavyzdziai skaidrese - perdaug sudetingi, parodyti siuos pavyzdzius
+      Optional (partial) permappint
+      Required permappint
+      Omit permappint
+  - Pagalbiniai tipai:
+    - Partial
+    - Required
+    - Record
+    - Pick
+    - Omit
+    - ReturnType
+
+2. Bendrinio tipo apibudinimas:
+  - Aprasyt bandziam bendrini tipa
+  - Primint apie pagalbinius tipus - jie taip pat bendriniai tipai
+
+3. Bendriniu funkciju aprasymas:
+   Naudojamos kuriant helperines funkcijas
+   Parodyt skirtuma tarp any ir generic
+
+4. Bendrinio tipo paveldimumas:
+  <Type extends { name string, surname string}>
+  Skirtas sumazinti panaudojamuma, laimint tikslumo
+
+5. Bendriniu klasiu aprasymas:
+  * pasizaist su klasem - su private field'ais
+  - sugalvot tema
