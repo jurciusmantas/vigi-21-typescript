@@ -1,0 +1,22 @@
+1. Prisimename, ka mokemes praeita paskaita:
+  - Kas yra TypeScript
+  - Kam ji naudojamas, kada reiktu naudot
+  - Ka atnesa
+  - Paprastieji kintamuju tipai
+    (const/let/var) kintamasis(dvitaskis) tipas (lygu) pradineReiksme
+
+2. Objektai:
+  type alias 
+  interface
+
+3. Masyvai:
+  su type[]
+  su Array<type>
+
+4. Funkcijos:
+  type
+  interface
+  funkcijos kurimo metu
+
+
+

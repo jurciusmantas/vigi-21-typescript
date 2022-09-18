@@ -1,0 +1,27 @@
+1. Prisimename, ka mokemes praeita paskaita:
+  - Objektai
+    type alias 
+    interface
+  - Masyvai
+    su type[]
+    su Array<type>
+  - Funkcijos
+    type
+    interface
+    funkcijos kurimo metu
+
+2. Union operatorius:
+  - Su paprastais tipais
+  - Nullable tipai
+  - Objektu union'ai
+
+3. Tuples:
+  - Nustatyto dydžio masyvas
+  - Dažniausiai naudojamas, kai norime grąžinti kelis rezultatus
+
+4. Tipų prieplaidos:
+  - Reikia vengti, bet kartais neįmanoma
+
+5. Literal types:
+
+6. Enums:

@@ -1,0 +1,13 @@
+1. Prisimename, ka mokemes praeita paskaita:
+  - Objektai
+    type alias 
+    interface
+  - Masyvai
+    su type[]
+    su Array<type>
+  - Funkcijos
+    type
+    interface
+    funkcijos kurimo metu
+
+2. Užduotys:
