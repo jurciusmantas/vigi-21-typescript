@@ -94,10 +94,10 @@
 // console.log('---------');
 
 // enum MenuType {
-//   Drinks,
-//   Main,
-//   Dessert,
-//   Snacks,
+//   Drinks = 'drinks',
+//   Main = 'main',
+//   Dessert = 'dessert',
+//   Snacks = 'snacks',
 // }
 
 // const printMenuV2 = (type: MenuType): void => {

@@ -26,5 +26,6 @@ module.exports = {
         'no-console': [0],
         'max-classes-per-file': [0],
         '@typescript-eslint/lines-between-class-members': [0],
+        '@typescript-eslint/no-unused-vars': [0],
     },
 };
