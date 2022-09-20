@@ -5,4 +5,5 @@ type Car = {
   ownerCount: number,
   accidents?: number,
   ownerName?: string,
+  color?: string
 };
