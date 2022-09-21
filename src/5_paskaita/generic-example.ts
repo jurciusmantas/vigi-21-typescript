@@ -1,23 +1,23 @@
-type Person = {
-  name: string
-};
+// type Person = {
+//   name: string
+// };
 
-type TypeWithSurname<Type> = Type & {
-  surname: string
-};
+// type TypeWithSurname<Type> = Type & {
+//   surname: string
+// };
 
-const person: Person = {
-  name: 'Test',
-};
-console.log(person);
+// const person: Person = {
+//   name: 'Test',
+// };
+// console.log(person);
 
-const personWithSurname: TypeWithSurname<Person> = {
-  name: 'Test',
-  surname: 'Test',
-};
-console.log(personWithSurname);
+// const personWithSurname: TypeWithSurname<Person> = {
+//   name: 'Test',
+//   surname: 'Test',
+// };
+// console.log(personWithSurname);
 
-console.log('labas');
+// console.log('labas');
 
 // type TypeWithPartial = {
 //   name: string,
