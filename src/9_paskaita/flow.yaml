@@ -1,0 +1,34 @@
+1. Prisimename, ka mokemes praeitą paskaitą:
+  #### Memory 
+  ref vs instance tipai:
+    - instance - primitivieji tipai (string, number, boolean), mutable (nes laiko iškart informaciją)
+    - ref - saugo tik adresą (reference) į atminties vietą, kuriame ir guli objekto reikšmė
+  heap vs stack:
+    heap:
+      - saugo objektų (references) reikšmes 
+    stack:
+      - saugo primityvių tipų (instance) reikšmes
+      ! saugo call stack'ą (dar kart parodyt su rekursija)
+  #### Memory
+  Kas yra objektinis programavimas:
+  OOP Inkapsuliacija:
+    - Skirta apriboti klasės savybių (fieldų) pasiekimą / reikšmės priskyrimą
+    - TS turi tris pasiekimo lygmenis
+      public (by default)
+      protected
+      private
+    - Implementuojama turint privatų klasės propertį ir sukuriant get ir set metodus
+
+2. Kas yra Paveldimumas (Inheritence):
+  - visi properčiai, fieldai ir metodai
+  - metodus galima overridint (apie tai 4 punkte)
+
+3. Kam naudojame Paveldimumą:
+  - grupuoti tą pačią elgseną (kodo prasme - identišką kodą, kad nesidubliuotų - D in SOLID)
+  - paklaust ar yra matę visą pilną SOLID
+
+4. Implementacija:
+  - visi laukai ir metodai
+  - konstruktorius (super)
+  - metodų override'inimai vaikinėse klasėse
+    

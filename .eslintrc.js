@@ -27,5 +27,6 @@ module.exports = {
         'max-classes-per-file': [0],
         '@typescript-eslint/lines-between-class-members': [0],
         '@typescript-eslint/no-unused-vars': [0],
+        'class-methods-use-this': [0],
     },
 };

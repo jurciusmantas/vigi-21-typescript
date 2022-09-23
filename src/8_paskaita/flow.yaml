@@ -1,0 +1,38 @@
+1. Prisimename, ka mokemes praeitą paskaitą:
+  - Iš ko sudarytas sąrašo einamasis elementas (data, next, prev)
+  - Sąrašo tipai
+    Vienakryptis / Dvikryptis
+    Galinis / Begalinis
+  - Šiek tiek apie implementaciją
+    naudojam generic'us data properciui
+    ! rekursija iteravimui
+
+#### Memory 
+2. ref vs instance tipai:
+  - instance - primitivieji tipai (string, number, boolean), mutable (nes laiko iškart informaciją)
+  - ref - saugo tik adresą (reference) į atminties vietą, kuriame ir guli objekto reikšmė
+
+3. Heap vs stack:
+  Heap:
+    - saugo objektų (references) reikšmes 
+  Stack:
+    - saugo primityvių tipų (instance) reikšmes
+    ! saugo call stack'ą (dar kart parodyt su rekursija)
+#### Memory
+
+4. Kas yra objektinis programavimas:
+  - paradigma, kuri skirsto sistemą į modulius (klases) pagal elgseną
+  - vs funkcinis programavimas - https://en.wikipedia.org/wiki/Functional_programming
+  - pagrindiniai OOP punktai
+    inkapsuliacija
+    paveldimumas
+    abstrakcija
+    polimorfizmas
+
+5. OOP Inkapsuliacija:
+  - Skirta apriboti klasės savybių (fieldų) pasiekimą / reikšmės priskyrimą
+  - TS turi tris pasiekimo lygmenis
+    public (by default)
+    protected
+    private
+  - Implementuojama turint privatų klasės propertį ir sukuriant get ir set metodus

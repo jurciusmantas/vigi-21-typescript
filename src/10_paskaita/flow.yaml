@@ -1,0 +1,24 @@
+1. Prisimename, ka mokemes praeitą paskaitą:
+  Kas yra Paveldimumas (Inheritence):
+    - visi properčiai, fieldai ir metodai
+    - metodus galima overridint (apie tai 4 punkte)
+
+  Kam naudojame Paveldimumą:
+    - grupuoti tą pačią elgseną (kodo prasme - identišką kodą, kad nesidubliuotų - D in SOLID)
+    - paklaust ar yra matę visą pilną SOLID
+
+  Implementacija:
+    - visi laukai ir metodai
+    - konstruktorius (super)
+    - metodų override'inimai vaikinėse klasėse
+
+2. Abstrakcija:
+  - Implementuojama dviem būdais
+    abstrakčia klase
+    interfeisu
+  - naudojama sugrupuoti besikartojančią elgseną (kodą) ir jo nedubliuoti
+
+3. Polimorfizmas:
+  - Kai galima iškviesti abstrakčios klasės ar interfeiso metodus, kurių implementacija skirtinga
+  - Galime turėti rinkinį abstrakčios klasės / interfeisų, o jų reikšmės - išvestinės klasės
+    čia sužaidžia SOLID L raidė - Liskov substitution principle - galima pakeisti išvestines klasės jų baze

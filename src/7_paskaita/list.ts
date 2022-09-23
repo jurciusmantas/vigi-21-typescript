@@ -105,7 +105,7 @@
 //     else console.log('List contains no elements');
 //   }
 
-//   private printInner(current: ListNode<T>, index: number, wasFirstPrinted: boolean = true): void {
+//   private printInner(current: ListNode<T>, index: number, wasFirstPrinted: boolean = true): void 
 //     if (this.head === current) {
 //       if (wasFirstPrinted) {
 //         console.log('----------');
