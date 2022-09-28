@@ -28,7 +28,7 @@
   - paklaust ar yra matę visą pilną SOLID
 
 4. Implementacija:
-  - visi laukai ir metodai
+  - public ir protected - laukai ir metodai
   - konstruktorius (super)
   - metodų override'inimai vaikinėse klasėse
     
